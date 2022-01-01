@@ -1,0 +1,262 @@
+/*ESTILOS GERAIS*/
+
+.rosa {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  background: #f975ec;
+}
+.subtitulo {
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+}
+.subtitulo::after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 80px;
+  background: black;
+  margin: 0 auto;
+  margin-top: 6px;
+}
+
+/*NAVEGAÇÃO e HEADER*/
+
+.navegacao {
+  width: 100%;
+  height: 90px;
+  background: white;
+}
+.logo {
+  margin-left: 200px;
+}
+.titulo {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.contato {
+  text-transform: capitalize;
+  font-weight: bold;
+  color: black;
+  font-size: 24px;
+  margin-left: 447px;
+}
+.container {
+  display: flex;
+  align-items: center;
+}
+
+/*EXAMES e OBJETIVO*/
+
+.exame {
+  display: inline-block;
+  border-radius: 5px;
+  background: white;
+  margin-top: 150px;
+  max-height: 600px;
+  max-width: 400px;
+  margin-left: 220px;
+}
+.content {
+  font-size: 22px;
+  text-align: center;
+}
+.exame p {
+  padding-top: 20px;
+}
+.peithola {
+  margin-top: 21px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.objetivo {
+  display: inline-block;
+  margin-left: 105px;
+  max-width: 400px;
+  background: white;
+  border-radius: 5px;
+}
+.objetivo p {
+  padding-top: 20px;
+}
+.pessoas {
+  text-align: center;
+  margin-top: 33px;
+  margin-bottom: 20px;
+}
+.text {
+  margin-bottom: 22px;
+  text-align: center;
+}
+
+/*EXAME DE TOQUE É O CARALHO BAGULHO É PEGADÃO NOS SEIOS com consentimento obvio n sou joão de deus*/
+
+.toque {
+  background: white;
+  margin-top: 65px;
+  width: 100%;
+  height: 1420px;
+}
+.toque .subtitulo {
+  padding-top: 30px;
+  font-size: 36px;
+}
+.toque p {
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 12px;
+}
+.imgpasso {
+  margin-top: 40px;
+  text-align: center;
+}
+.call {
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+.btnloko {
+  text-align: center;
+}
+.btn {
+  font-weight: bold;
+  font-size: 36px;
+  padding: 10px 40px;
+  background: #e61873;
+  color: white;
+  text-decoration: none;
+}
+.btn:hover {
+  font-weight: bold;
+  color: #e61873;
+  background: none;
+  border: 6px outset #e61873;
+}
+
+/*VIDEOS MUITO FODAS SELETIVAMENTE SELETOS PARA AS CANCERIGENA DE PLANTÃO*/
+
+.videos .subtitulo {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.cancer {
+  display: inline-block;
+  margin-top: 30px;
+  max-height: 499px;
+  margin-left: 220px;
+}
+.titulovideo {
+  border-radius: 5px 5px;
+  max-height: 281px;
+  max-width: 408px;
+  background: #e61873;
+}
+.titulovideo p {
+  margin-bottom: 5px;
+  font-size: 28px;
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+}
+.titulovideo:hover {
+  box-shadow: 10px 10px #920f49;
+}
+.outrosa {
+  display: inline-block;
+  margin-left: 89px;
+}
+.depoimentos .subtitulo {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/*N DESISTA CARALHO SÓ PQ PERDEU AS TETA CARALHO SEFUDE FAZ ESPANHOLA COM O PÉ PORRA SE VIRA*/
+
+.encentivo {
+  margin: 0 auto;
+  text-align: center;
+  background: white;
+  max-width: 960px;
+  max-height: 500px;
+}
+.encentivo .subtitulo {
+  padding-top: 20px;
+  font-size: 36px;
+  margin-top: 100px;
+}
+.encentivo .texto {
+  font-size: 24px;
+  margin-top: 40px;
+  margin-left: 130px;
+  max-height: 240px;
+  max-width: 700px;
+}
+.autor {
+  padding: 30px 0px 80px 0px;
+  font-size: 24px;
+}
+.contribua .call {
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+/*FOOTER*/
+
+.footer {
+  height: 110px;
+  max-width: 100%;
+  background: white;
+}
+
+.dev {
+  padding-top: 50px;
+  font-size: 18px;
+  margin-left: 220px;
+  margin-top: 70px;
+}
+
+/*========================================OUTRA COISA===================================================*/
+
+.botao {
+  border-radius: 50px;
+  max-height: 80px;
+  margin: 0 auto;
+  max-width: 190px;
+  background: #e61873;
+  margin-top: 50px;
+  text-align: center;
+}
+.botao a {
+  text-transform: uppercase;
+  font-size: 36px;
+  color: white;
+}
+.developer {
+  border-radius: 5px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 960px;
+  background: white;
+}
+.developer h2 {
+  font-weight: bold;
+  font-size: 24px;
+}
+.developer h1 {
+  margin-left: 15px;
+  font-weight: bold;
+  font-size: 36px;
+}
+.developer p {
+  font-weight: bold;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 678px;
+  text-align: center;
+  font-size: 24px;
+}
+/*====================================================FIM===============================================*/
